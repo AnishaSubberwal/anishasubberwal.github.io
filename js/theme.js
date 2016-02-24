@@ -1,11 +1,3 @@
-/*
- Theme Name: EOVO - Creative HTML5 Responsive Template
- Theme URL: http://themewar.com/html/eovo/
- Author: ThemeWar
- Author URI: http://www.themewar.com
- Description: "EOVO - Creative HTML5 Responsive Template" is modern, clean, multiple functions and professionally. It has 11 homepage layouts and 11 Online store layout Options! This template suits for any type of portfolio, Creative, corporate, design studio, Fashions, Blog shopping and more… The template is designed on Bootstrap grid and can be easily conversion into Wordpress, Joomla and other systems. This is a perfect choice!
- Version: 1.0
- */
 (function ($) {
     'use strict';
     //========================
