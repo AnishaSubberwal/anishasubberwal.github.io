@@ -1,0 +1,152 @@
+/*
+  Theme Name: EOVO - Creative HTML5 Responsive Template
+  Theme URL: http://themewar.com/html/eovo/
+  Author: ThemeWar
+  Author URI: http://www.themewar.com
+  Description: "EOVO - Creative HTML5 Responsive Template" is modern, clean, multiple functions and professionally. It has 11 homepage layouts and 11 Online store layout Options! This template suits for any type of portfolio, Creative, corporate, design studio, Fashions, Blog shopping and more… The template is designed on Bootstrap grid and can be easily conversion into Wordpress, Joomla and other systems. This is a perfect choice!
+  Version: 1.0
+*/
+/* Font Include */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700,700italic,900,900italic);
+
+/* Normalization */
+htm,body{
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}  
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: .9;
+    font-weight: 700;
+    color: #000000;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #a8a8a8;
+    line-height: 1.661;
+    letter-spacing: .26px;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a:hover,a:focus{
+    color: inherit;
+    text-decoration: none;
+    outline: 0;
+}
+a{
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.defaultLink.whiteDefaultLink span {
+    color: #FFF;
+}
+.defaultLink.whiteDefaultLink span:before{
+    background: #FFF none repeat scroll 0 0;
+}
+.defaultLink.whiteDefaultLink span:after{
+    background: #FFF none repeat scroll 0 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Common Content */
+.titleArea {
+    display: table;
+    left: -32px;
+    margin: auto;
+    position: absolute;
+    top: 90px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: auto;
+}
+.commonTittle{
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 10.8px;
+    padding-bottom: 22px;
+}
+.subTitle{
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    padding-right: 12px;
+    color: #999999;
+}
+
+/* Margin and padding settings */
+.noPaddingLeft{
+    padding-left: 0 !important;
+}
+.noPaddingRight{
+    padding-right: 0 !important;
+}
+.noPadding{
+    padding: 0 !important;
+}
+input {
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 0 0 1px;
+    color: #c7c7c7;
+    font-size: 13px;
+    opacity: 1;
+    padding-bottom: 17px;
+    padding-left: 5px;
+    background: transparent;
+    letter-spacing: .26px;
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    -webkit-transition: all ease 700ms;
+    -ms-transition: all ease 700ms;
+    -o-transition: all ease 700ms;
+}
+::-moz-placeholder {
+    opacity: 1;
+}
+:-moz-placeholder {
+    opacity: 1;
+}
+input:focus{
+    border-color: #000;
+}
+.white{
+    color: #fff !important;
+}
+
+
+.inBox{
+    margin: 0 60px;
+    position: relative;
+}
+.comonSection{
+    position: relative;
+    width: 100%;
+    padding: 90px 60px;
+}
+.comonSection2{
+    width: 100%;
+    position: relative;
+}
