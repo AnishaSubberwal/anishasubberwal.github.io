@@ -1,0 +1,147 @@
+* {
+ background-size: 1300px 1300px;
+}
+
+body {
+
+}
+
+article {
+	
+}
+
+h1 {
+	color: #ff738e; 
+	font-family: "Great Vibes", 
+	cursive; font-size: 165px; 
+	line-height: 160px;
+	margin-bottom: 40px; 
+	margin-top: 40px; 
+	text-align: center; 
+	font-weight: normal; 
+	text-shadow: 0 1px 1px #fff; 
+	animation-duration: 6s;
+  	animation-name: slidein;
+  	animation-play-state: ease-in;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h1:hover {
+	color:#c3edd7;
+}
+
+h2 {
+	color: #7a7c7f;
+	line-height: 50px;
+	margin-bottom: 0px; 
+	margin-top: 40px; 
+	text-align: center;
+	text-transform: uppercase;
+	overflow: hidden; 
+    border-right: .15em solid pink; 
+    white-space: nowrap; 
+  	margin: 0 auto; 
+  	letter-spacing: .30em; 
+  	animation: 
+    typing 7s steps(40, end),
+    blink-caret .75s step-end infinite;
+	
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #d54d7b;}
+
+}
+
+p {
+	color: #7a7c7f;  
+	font-family: "Libre Baskerville", 
+	serif; line-height: 45px; 
+	text-shadow: 0 1px 1px #fff; 
+   font-size:15px;
+   letter-spacing:0.1em;
+   line-height:200%;
+   padding-top:11px;
+   margin-left: 100px;
+   margin-right: 100px;
+
+
+	
+}				
+
+cite {
+	color: #7a7c7f;  
+	font-family: "Libre Baskerville", 
+	serif; line-height: 45px; 
+	text-shadow: 0 1px 1px #fff; 
+   font-size:25px;
+   letter-spacing:0.1em;
+   padding-top:11px;
+
+
+
+	
+}
+	
+em {
+	color: #7a7c7f;  
+	font-family: "Libre Baskerville", 
+	serif; line-height: 45px; 
+	text-shadow: 0 1px 1px #fff; 
+   font-size:25px;
+   letter-spacing:0.1em;
+   padding-top:11px;
+
+
+
+	
+}
+
+ol {
+	color: #7a7c7f;  
+	font-family: "Libre Baskerville", 
+	serif; line-height: 45px; 
+	text-align: justify; 
+	text-shadow: 0 1px 1px #fff; 
+   font-size:15px;
+   letter-spacing:0.1em;
+   line-height:200%;
+   padding-top:11px;
+   margin-left: 100px;
+   margin-right: 100px;
+
+
+
+}
+
+li {
+	color: #7a7c7f;  
+	font-family: "Libre Baskerville", 
+	serif; line-height: 45px; 
+	text-align: justify; 
+	text-shadow: 0 1px 1px #fff; 
+	letter-spacing:0.1em;
+   line-height:200%;
+   padding-top:11px;
+   margin-left: 100px;
+   margin-right: 100px;
+	
+}
