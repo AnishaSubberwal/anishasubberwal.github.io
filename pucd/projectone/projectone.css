@@ -61,10 +61,16 @@ body {
     padding-bottom: 150px;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 img {
     float: left;
     display: 50%;
     margin: 10px;
+    
 
 
 }

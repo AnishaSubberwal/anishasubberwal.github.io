@@ -1,4 +1,34 @@
 h1 {
+
+   font-family: "Great Vibes", 
+   cursive; font-size: 165px; 
+   line-height: 160px;
+   margin-bottom: -35px; 
+   margin-top: 40px; 
+   text-align: center; 
+   font-weight: normal; 
+   text-shadow: 0 1px 1px #fff; 
+   
+
+}
+
+h2 {
+
+ 
+   font-family: "Libre Baskerville",  
+   text-shadow: 0 1px 1px #fff; 
+   text-align: center;
+   text-transform: uppercase;
+   font-size:20px;
+   letter-spacing:0.3em;
+   line-height:200%;
+   margin-left: 100px;
+   margin-right: 100px;
+
+}
+
+
+h3 {
    font-family: "Libre Baskerville",  
    text-shadow: 0 1px 1px #fff; 
    text-align: center;
@@ -24,6 +54,67 @@ p {
    margin-left: 100px;
    margin-right: 100px;
 
-
-	
 }	
+
+ul {
+
+   font-family: "Libre Baskerville",  
+   text-shadow: 0 1px 1px #fff; 
+   text-transform: uppercase;
+   font-size:12px;
+   letter-spacing:0.2em;
+
+
+}
+
+}
+
+.dropbtn {
+    background-color: white;
+    align-self: center;
+    padding: 16px;
+    border-width: 1px;
+    border-color: #c3edd7;
+    cursor: pointer;
+    font-family: "Libre Baskerville",  
+    text-shadow: 0 1px 1px #fff; 
+    text-transform: uppercase;
+   font-size:12px;
+   letter-spacing:0.2em;
+
+}
+
+
+.dropdown {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #c3edd7;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #c3edd7;;
+}
