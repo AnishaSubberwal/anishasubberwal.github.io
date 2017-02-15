@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+
+h1 {
+
+  box-sizing: content-box;
+  padding: 20px;
+  border: none;
+  font-family: "Sunshine In My Soul";
+  font-size: 50pt;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 10px rgb(255,255,255) , 0 0 20px rgb(255,255,255) , 0 0 30px rgb(255,255,255) , 0 0 40px rgb(255,17,119) , 0 0 70px rgb(255,17,119) , 0 0 80px rgb(255,17,119) , 0 0 100px rgb(255,17,119) , 0 0 150px rgb(255,17,119) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+
+  background-color: black;
+
+
+}
+
+h1:hover {
+
+  font: normal "Sunshine In My Soul";
+  text-shadow: 0 0 5px rgb(255,255,255) , 0 0 10px rgb(255,255,255) , 0 0 15px rgb(255,255,255) , 0 0 20px rgb(255,17,119) , 0 0 35px rgb(255,17,119) , 0 0 40px rgb(255,17,119) , 0 0 50px rgb(255,17,119) , 0 0 75px rgb(255,17,119) ;
+
+}
+
+
+p:first-letter{
+  text-transform: uppercase;
+}
+        
+p {
+box-sizing: content-box;
+padding: 20px;
+color: #424242;
+font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+letter-spacing:0.1em;
+text-align:center;
+margin: 40px auto;
+text-transform: lowercase;
+line-height: 145%;
+font-size: 14pt;
+font-variant: small-caps;
+transition: all 3s ease;
+}
+
+p:hover {
+  color: white;
+ 
+}
+
+#container {
+  background-color: black;
+  margin: 200px;
+  margin-top: -50px;
+}
+
+
