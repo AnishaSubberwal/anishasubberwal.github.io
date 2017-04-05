@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <script src="home.js"></script> 
+    </head>
+    <body>
+
+        <div class="grid-base">
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+            <div class="col-1"></div>
+        </div>
+
+        <div class="navbar">
+            <a href="#home" class="menu">Home</a>
+            <a href="aboutme" class="menu">About Me</a>
+            <a href="photography/photography.html" class="menu">Photography</a>
+            <a href="#contact" class="menu">Graphics</a>
+            <a href="#contact" class="menu">Art</a>
+            <a href="#contact" class="menu">Blog</a>
+
+        </div>
+
+        <div class="dropdown">
+        <div class="menuicon">
+            <div onclick="myFunction()" class="dropbtn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="#home" class="menu">Home</a>
+                <a href="aboutme" class="menu">About Me</a>
+                <a href="photography/photography.html" class="menu">Photography</a>
+                <a href="#contact" class="menu">Graphics</a>
+                <a href="#contact" class="menu">Art</a>
+                <a href="#contact" class="menu">Blog</a>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides first fade">
+            <div class="numbertext">1 / 6</div>
+            <img src ="img1.jpg" style="width:100%"> 
+            <div class="text">Adobe Illustrator</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="img2.jpg" style="width:100%">
+            <div class="text">Adobe Illustrator</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="img3.jpg" style="width:100%">
+            <div class="text">Adobe Illustrator</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="img4.jpg" style="width:100%">
+            <div class="text">Adobe Illustrator</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="img5.jpg" style="width:100%">
+            <div class="text">Adobe Illustrator</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="img6.jpg" style="width:100%">
+            <div class="text">Adobe Illustrator</div>
+        </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+
+</div>
+
+    </body>
+</html>
