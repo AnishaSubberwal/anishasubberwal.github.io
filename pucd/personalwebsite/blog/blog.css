@@ -16,7 +16,7 @@
 [class*="col-"] {
     float: left;
     padding: 25px;
-    border: 1px dashed rgba(255,0,0,0.3);
+
     display: inline-block;
 }
 
