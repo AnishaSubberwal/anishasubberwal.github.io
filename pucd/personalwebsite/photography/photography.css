@@ -1,0 +1,160 @@
+/*Global Layout */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    display: inline-block;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+.grid-base .col-1{
+    height: 3000px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+
+.menu {
+	font-family: Montserrat-Regular;
+	font-size: 10px;
+	letter-spacing: 0.08px;
+	line-height: 19px;
+	color: #373737;
+	text-transform: uppercase;
+}
+
+.menu:hover {
+	color: #EC92D7;
+	cursor: pointer;
+}
+
+* {box-sizing:border-box}
+.menuicon {
+    display: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.cbp-rfgrid {
+
+	padding: 0;
+	list-style: none;
+	position: relative;
+	width: 100%;
+	margin:30px;
+}
+
+
+.cbp-rfgrid li {
+	position: relative;
+	float: left;
+	width: calc(100% / 3);
+}
+
+img {
+	width: 90%;
+	height: 90%;
+}
+
+@media screen and (max-width: 760px) {
+	/*Moblie Size*/
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	.menuicon {
+		display: inline-block;
+		
+	}
+
+	.menuicon:hover {
+		cursor: pointer;
+
+	}
+
+	.navbar {
+		display: none;
+	}
+	
+	.mySlides {
+		display: block;
+	}
+
+	.numbertext {
+		display: none;
+	}
+
+	.prev {
+		display: none;
+	}
+
+	.next {
+		display: none;
+	}
+
+	.dot {
+		display: none;
+	}
+
+
+}
