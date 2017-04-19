@@ -65,6 +65,21 @@ p {
     margin-right: 60px;
 }
 
+
+button {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.p {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    letter-spacing: 0.08px;
+    color: grey;
+    text-transform: uppercase;
+
+}
+
 .menu {
 	font-family: Montserrat-Regular;
 	font-size: 10px;

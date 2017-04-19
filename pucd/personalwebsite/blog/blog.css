@@ -35,6 +35,7 @@
     position: fixed; 
     top: 0; 
     width: 100%; 
+  
 }
 
 h1 {
@@ -72,9 +73,8 @@ p {
     margin: auto;
     margin-top: 50px;
     line-height:200%;
-    padding-top:11px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 150px;
+
 }
 
 /* Slideshow container */
