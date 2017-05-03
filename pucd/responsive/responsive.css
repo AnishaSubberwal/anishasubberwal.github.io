@@ -55,7 +55,6 @@ blockquote{
 	color: #2FD4AD;
 	letter-spacing: 0;
 	text-indent: -12px;
-    display: flex;
     flex-direction: column;
 
 }
