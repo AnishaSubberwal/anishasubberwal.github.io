@@ -1,0 +1,61 @@
+button {
+float: right;
+	/* Rectangle: */
+border: 1px solid #979797;
+border-radius: 8px;
+font-family: Helvetica-Bold;
+font-size: 20px;
+letter-spacing: 0.2px;
+margin-bottom: 100px;
+
+/* Rectangle: */
+background: white;
+border: 1px solid #979797;
+border-radius: 8px;
+height: 50px;
+width: 100px;
+
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	margin-top: 50px;
+
+}
+
+h1 {
+	/* Anisha Subberwal: */
+font-family: Helvetica-Bold;
+font-size: 30px;
+color: #575656;
+letter-spacing: 0.2px;
+}
+
+h2 {
+/* Add Copy: */
+font-family: Helvetica-Bold;
+font-size: 18px;
+color: #9C9B9B;
+letter-spacing: 0.2px;
+}
+
+h3 {
+	/* Followers: */
+font-family: Helvetica;
+font-size: 12px;
+color: #9A9A9A;
+letter-spacing: 0.2px;
+}
+
+.image {
+	width: 190px;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1px;
+
+}
+

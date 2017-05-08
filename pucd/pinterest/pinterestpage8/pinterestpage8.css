@@ -1,0 +1,72 @@
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+
+}
+
+button {
+float: right;
+	/* Rectangle: */
+border: 1px solid #979797;
+border-radius: 8px;
+font-family: Helvetica-Bold;
+font-size: 20px;
+color: white;
+letter-spacing: 0.2px;
+margin-bottom: 100px;
+z-index: 0
+
+/* Rectangle: */
+background: red;
+border: 1px solid #979797;
+border-radius: 8px;
+height: 50px;
+width: 100px;
+z-index: 0
+
+
+}
+h1 {
+	/* Anisha Subberwal: */
+font-family: Helvetica-Bold;
+font-size: 30px;
+color: #575656;
+letter-spacing: 0.2px;
+z-index: 0
+}
+
+h2 {
+/* Add Copy: */
+font-family: Helvetica-Bold;
+font-size: 18px;
+color: #9C9B9B;
+letter-spacing: 0.2px;
+z-index: 0
+}
+
+h3 {
+	/* Followers: */
+font-family: Helvetica;
+font-size: 12px;
+color: #9A9A9A;
+letter-spacing: 0.2px;
+z-index: 0
+}
+
+.moodboard {
+	width: 95%;
+	height: 95%;
+	z-index: 0
+}
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+
+}
+
