@@ -19,10 +19,9 @@ width: 100px;
 }
 
 .container {
-	display: flex;
+  position: relative;
+  	display: flex;
 	flex-wrap: wrap;
-	height: 100vh;
-	margin-top: 50px;
 
 }
 
@@ -54,9 +53,9 @@ letter-spacing: 0.2px;
 #overlay    {  
 	background:rgba(0,0,0,.75);
     text-align:center;
-    padding:45px 0 66px 0;
-               opacity:0;
-               -webkit-transition: opacity .25s ease;}
+
+    opacity:0;
+    -webkit-transition: opacity .25s ease;}
 
 
 #plus       {  
@@ -69,13 +68,36 @@ letter-spacing: 0.2px;
 .image {
 	width: 190px;
 	height: 250px;
-	display: flex;
-	flex-wrap: wrap;
 	margin: 1px;
 	overflow:hidden;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
 
-.image:hover #overlay {
-               opacity:1;}
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
