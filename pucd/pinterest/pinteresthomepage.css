@@ -23,7 +23,7 @@ color: #9A9A9A;
 letter-spacing: 0.2px;
 }
 
-img {
+.img {
 width: 100px;
 height: 100px;
 }
@@ -31,8 +31,10 @@ height: 100px;
 .icon {
 float:right;
 border-radius: 50%;
+width: 90px;
+height: 100px;
 
 
 }
-}
+
 
